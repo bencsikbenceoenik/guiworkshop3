@@ -7,6 +7,14 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1.5*"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1.5*"/>
+        </Grid.ColumnDefinitions>
+        <ListBox x:Name="lb_unit" Grid.Column="0"/>
+        <StackPanel>
+        </StackPanel>
+        <ListBox x:Name="lb_army" Grid.Column="2"/>
     </Grid>
 </Window>
